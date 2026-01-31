@@ -1,0 +1,5 @@
+text = map(str,input().split())
+text = list(text)
+text.reverse()
+ans = ''.join(text)
+print(ans)
