@@ -6,8 +6,8 @@ if gen == 0:
         print("MAN")
     else:
         print("BOY")
-elif gen == 1:
+else:
     if age >= 19:
-        print("WONAM")
+        print("WOMAN")
     else:
         print("GIRL")
